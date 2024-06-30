@@ -48,18 +48,14 @@ main {
     text-align: center;
 }
 
-main section {
-    padding: 60px 20px;
-    background: url('image/Object.png') no-repeat center;
-    color: #fff;
-}
-
-main {
-    text-align: center;
+main > section:first-child {
+    background: url(Object.png) no-repeat center center;
+    background-size: cover;
 }
 
 main section {
     padding: 60px 20px;
+    background: url() no-repeat center;
     color: #fff;
 }
 
@@ -234,6 +230,7 @@ main section div:last-child p {
 .free-membership .details span:last-child {
     color: #a74cb2;
 }
+
 /* FAQ Section Styling */
 .faq {
     padding: 60px 20px;
@@ -261,24 +258,24 @@ main section div:last-child p {
     text-align: left;
 }
 
-.faq-item h3 {
+faq-item h3 {
     font-size: 1.5em;
     margin-bottom: 20px;
     color: #000;
 }
 
-.faq-item p {
+faq-item p {
     font-size: 1em;
     color: #666;
     line-height: 1.6;
 }
+
 footer {
     background-color: #0d1b2a;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
-
 
 footer section {
     display: flex;
