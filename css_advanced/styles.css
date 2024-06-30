@@ -131,6 +131,28 @@ main section div:last-child p {
     text-align: left;
 }
 
+blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+    margin-top: 0;
+}
+
+em {
+    font-style: italic;
+}
+
+p {
+    font-size: 1em;
+    color: #666; /* Adjust color as needed */
+}
+
 .testimonial img {
     border-radius: 50%;
     width: 120px;
