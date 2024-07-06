@@ -1,0 +1,42 @@
+/* holberton_school-icon.css */
+
+@font-face {
+    font-family: 'HolbertonSchoolIcon'; /* Name your font family */
+    src: url('holberton_school-icon.eot'); /* Path to your .eot font file */
+    src: url('holberton_school-icon.eot?#iefix') format('embedded-opentype'), /* IE fix */
+         url('holberton_school-icon.woff2') format('woff2'), /* Modern browsers */
+         url('holberton_school-icon.woff') format('woff'), /* Modern browsers */
+         url('holberton_school-icon.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('holberton_school-icon.svg#HolbertonSchoolIcon') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Define your icons */
+.icon1:before {
+    font-family: 'HolbertonSchoolIcon'; /* Use the defined font family */
+    content: '\e001'; /* Unicode character for your first icon */
+    font-size: 24px; /* Adjust icon size */
+    color: #000; /* Icon color */
+}
+
+.icon2:before {
+    font-family: 'HolbertonSchoolIcon'; /* Use the defined font family */
+    content: '\e002'; /* Unicode character for your second icon */
+    font-size: 24px; /* Adjust icon size */
+    color: #000; /* Icon color */
+}
+
+.icon3:before {
+    font-family: 'HolbertonSchoolIcon'; /* Use the defined font family */
+    content: '\e003'; /* Unicode character for your third icon */
+    font-size: 24px; /* Adjust icon size */
+    color: #000; /* Icon color */
+}
+
+.icon4:before {
+    font-family: 'HolbertonSchoolIcon'; /* Use the defined font family */
+    content: '\e004'; /* Unicode character for your fourth icon */
+    font-size: 24px; /* Adjust icon size */
+    color: #000; /* Icon color */
+}
