@@ -1,0 +1,185 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 150px;
+    display: inline-block;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #FF6565;
+}
+
+.hero {
+    background: url('background.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #FF6565; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.hero button:hover {
+    opacity: 0.9;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#what-we-do .services {
+    display: flex;
+    justify-content: space-between;
+}
+
+#what-we-do .service {
+    text-align: center;
+    width: 23%;
+}
+
+#what-we-do .service h3 {
+    margin-bottom: 10px;
+}
+
+#our-results .results {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#our-results .result {
+    background: #FF6565;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 23%;
+}
+
+#contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-us input, #contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+#contact-us button {
+    background: #FF6565;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-us button:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .logo {
+    width: 100px;
+}
+
+footer .socials a {
+    margin: 0 10px;
+}
+
+footer .socials img {
+    width: 30px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    #what-we-do .services, #our-results .results {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #what-we-do .service, #our-results .result {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
