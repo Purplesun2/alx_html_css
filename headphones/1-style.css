@@ -1,6 +1,4 @@
 /* 1-styles.css */
-
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +8,11 @@
 
 
 nav {
-    margin-left: auto; /* Aligns nav to the right */
+    margin-left: auto; 
 }
 
 .nav-links {
-    justify-content: flex-end; /* Aligns items to the right */
+    justify-content: flex-end; 
 }
 
 .nav-links li {
@@ -23,16 +21,16 @@ nav {
 
 
 nav a {
-    text-decoration: none; /* Removes underline */
-    color: white; /* Sets text color */
+    text-decoration: none; 
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets font family */
-    font-size: 16px; /* Sets font size */
-    margin-left: 20px; /* Adds spacing between items */
+    font-size: 16px; 
+    margin-left: 20px; 
 }
 
 nav a:hover {
-    color: #db2020; /* Changes text color on hover */
-    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+    color: #db2020; 
+    transition: color 0.3s ease-in-out; 
 }
 
 body {
@@ -48,10 +46,10 @@ body {
 }
 
 .hero {
-    background: url(background.png) no-repeat center center/cover; /* Background image */
-    color: #fff; /* Text color */
-    text-align: center; /* Center text */
-    padding: 100px 0; /* Padding for the section */
+    background: url(background.png) no-repeat center center/cover;
+    color: #fff; 
+    text-align: center; 
+    padding: 100px 0;
     
 }
 
@@ -95,7 +93,7 @@ body {
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
-    gap: 20px; /* Add space between services */
-    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    gap: 20px; 
+    flex-wrap: nowrap; 
 }
 
